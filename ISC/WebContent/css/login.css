@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main {
+	font-family: "宋体", "楷体", "黑体";
+	  margin:auto;
+	  width: 500px;
+	  height: 500px;
+	  text-align: center;
+	  margin-top: 200px;
+}
+
+
+.font1{
+	font-family: "黑体";
+	font-size: 36px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.font2{
+	font-family: "宋体";
+	font-size: 18px;
+	color:#b0b0b2;
+}
+
+.font2_1{
+	font-family: "楷体";
+	font-size: 18px;
+}
+
+.font3{
+	font-family: "黑体";
+	font-size: 24px;
+	color: #b0b0b2;
+	font-weight: bold;
+}
+
+.font4{
+	font-family: "黑体";
+	font-size: 16px;
+	color: #fff;
+}
+
+.font5{
+	font-family: "宋体";
+	font-size: 18px;
+	background: #FFF;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-color: #F0F5F2;
+	border-right-color: #F0F5F2;
+	border-bottom-color: #F0F5F2;
+	border-left-color: #F0F5F2;
+}
+
+.form1{
+	height:30px;
+	width:300px;	
+}
+	
+.reg_ul{
+  width: 100%;
+}
+.reg_ul li{
+  margin: auto;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.reg_ul li span{
+  float: left;
+  width:100px;
+  text-align:right;
+  display:inline-block;
+  margin: auto;
+  margin-top: 10px;
+}
+.reg_ul li span.tip{margin:6px 0 0 10px;width:40px;text-align:left;}
+.reg_ul li input{
+  float: left;
+  width: 228px;
+  height: 30px;
+  border:1px solid #333;
+  border-radius: 3px;
+  padding-left: 20px;
+  outline:medium;
+}
+
+
+.ul_li_select {
+	float: left;
+	width: auto;
+	height:30px;
+	border:1px solid #333;
+	border-radius: 3px;
+	padding-left: 20px;
+}

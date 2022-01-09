@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iuexam.dao.AttentionMapper">
+  <resultMap id="BaseResultMap" type="com.iuexam.entity.Attention">
+    <id column="proid" jdbcType="VARCHAR" property="proid" />
+    <result column="pname" jdbcType="VARCHAR" property="pname" />
+    <result column="num" jdbcType="INTEGER" property="num" />
+    <result column="marks" jdbcType="VARCHAR" property="marks" />
+  </resultMap>
+  
+    <insert id="insert" parameterType="com.iuexam.entity.Attention">
+    insert into attention (proid, pname, num, 
+      marks)
+    values (#{proid,jdbcType=VARCHAR}, #{pname,jdbcType=VARCHAR}, #{num,jdbcType=INTEGER}, 
+      #{marks,jdbcType=VARCHAR})
+  </insert>
+  
+     <select id="selectAll"  resultType="com.iuexam.entity.Attention">
+   select * from attention;
+     </select>
+     
+       <delete id="delete" parameterType="java.lang.String">
+    delete from attention
+    where proid = #{proid,jdbcType=VARCHAR}
+  </delete>
+</mapper>

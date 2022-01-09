@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content1{
+	height: 100%;
+	width: 100%;
+}
+
+.top1 {
+	height: 100px;
+	width: auto;
+}
+
+.top_content1 {
+	height: auto;
+	width: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	position: absolute;
+	left: 10px;
+	top: 20px;
+	right: 10px;
+}
+
+.middle_content1 {
+	height: 300px;
+	width: auto;
+}
+
+.bottom1 {
+	height: 100%;
+	width: auto;
+	padding-top: 50px;
+	padding-right: 50%;
+	padding-left: 50%;
+}
+
+.header1 {
+	font-size: 36px;
+	font-weight: 900;
+	color: #222228;
+}
+
+.h1{
+	border:1px;
+	color:#CCC;
+}
+
+.tabel1{
+	width: 100%;
+}
+	
+.t1{
+	font-size: 18px;
+	text-align: right;
+	padding-top: 20px;
+	width: 100px;
+	font-weight: bold;
+	color: #222228;
+}
+
+.t2{
+	padding-top: 10px;
+}
+
+.btn1{
+	font-size: 16px;
+	color: #FFF;
+	background-color: #012;
+	height: 30px;
+	width: 50px;
+	padding-top: 10px;
+	padding-right: 10px;
+	font-weight: bolder;
+	text-align: center;	
+}
